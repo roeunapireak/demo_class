@@ -22,11 +22,12 @@ rocket2 = Player(player_image='images/rocket-removebg-preview.png',
                  player_x=525, player_y=200,
                  player_speed=4, width=50, height=150)
 
-ball = Player(player_image='images/ball-removebg-preview.png', 
+ball = Player(player_image='images/ball.png', 
                  player_x=200, player_y=200,
                  player_speed=1, width=50, height=50)
 
 
+font.init()
 font1 = font.Font(None, 35)
 lose1 = font1.render('PLAYER 1 LOSES!', True, (180, 0, 0))
 lose2 = font1.render('PLAYER 2 LOSES!', True, (180, 0, 0))

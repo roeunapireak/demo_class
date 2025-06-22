@@ -17,5 +17,6 @@ class Gamesprite(sprite.Sprite):
 class Player(Gamesprite):
 
     def update(self):
+        print('test')
         pass
 
